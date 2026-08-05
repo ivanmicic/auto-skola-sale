@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "homeTitle": "Auto škola Sale Kostolac — Obuka vozača B kategorije",
+    "homeDescription": "Auto škola Sale u Kostolcu: obuka vozača B kategorije i kondicioni časovi. Moderan tim, fleksibilni termini. Pozovite +381 63 826 8876.",
+    "trainingTitle": "Obuka vozača B kategorije — Auto škola Sale Kostolac",
+    "trainingDescription": "Upisite obuku za vozačku dozvolu B kategorije u Auto školi Sale Kostolac. Teorija, praksa i priprema za vozački ispit.",
+    "refresherTitle": "Kondicioni časovi vožnje Kostolac — Auto škola Sale",
+    "refresherDescription": "Kondicioni časovi vožnje u Kostolcu za vozače koji žele više sigurnosti. Zakažite čas u Auto školi Sale.",
+    "privacyTitle": "Politika privatnosti — Auto škola Sale",
+    "privacyDescription": "Politika privatnosti i kolačića Auto škole Sale d.o.o. Kostolac. Kako koristimo podatke i analitiku.",
+    "termsTitle": "Uslovi korišćenja — Auto škola Sale",
+    "termsDescription": "Uslovi korišćenja sajta Auto škole Sale d.o.o. Kostolac. Pravne informacije i impressum."
+  },
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "training": "Obuka vozača",
+    "refresher": "Kondicioni časovi",
+    "fleet": "Vozni park",
+    "pricing": "Cenovnik",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "contactCta": "Kontaktirajte nas",
+    "openMenu": "Otvori meni",
+    "closeMenu": "Zatvori meni"
+  },
+  "hero": {
+    "brand": "Auto škola Sale",
+    "title": "Auto škola Sale Kostolac — Obuka vozača B kategorije",
+    "subtitle": "Moderan tim i fleksibilni termini za obuku vozača u Kostolcu. Naučite da vozite samouvereno — sa instruktorima koji su uz vas na svakom kilometru.",
+    "ctaPrimary": "Prijavite se za obuku",
+    "ctaSecondary": "Pozovite nas"
+  },
+  "facts": {
+    "experience": "Godine iskustva",
+    "experienceValue": "—",
+    "vehicles": "Moderna vozila",
+    "vehiclesValue": "Sa dvostrukim komandama",
+    "schedule": "Fleksibilni termini",
+    "scheduleValue": "Jutro i popodne",
+    "note": "Tačne brojke potvrđujemo sa vlasnikom"
+  },
+  "about": {
+    "title": "O auto školi Sale",
+    "p1": "Iza Auto škole Sale stoji Saša Anđelković i mlad, energičan tim licenciranih instruktora. Radimo u Kostolcu, na adresi Rudarska bb, i pokrivamo polaznike iz Kostolca, Požarevca i okoline.",
+    "p2": "Naša filozofija je jednostavna: kvalitetna obuka vozača, bezbednost na putu i poverenje polaznika. Bez birokratskog tona — sa jasnim objašnjenjima, strpljenjem i modernim pristupom učenju.",
+    "p3": "Bilo da ste pred prvim upisom za B kategoriju ili se vraćate volanu posle duže pauze, tu smo da vas provedemo kroz proces — od teorije do vozačkog ispita.",
+    "cta": "Pogledajte kako izgleda obuka vozača B kategorije"
+  },
+  "why": {
+    "title": "Zašto izabrati Auto školu Sale",
+    "items": {
+      "quality": {
+        "title": "Kvalitet obuke",
+        "text": "Strukturirana teorijska i praktična nastava usklađena sa propisima — fokus na prave veštine, ne samo na prolazak ispita."
+      },
+      "dedication": {
+        "title": "Posvećenost polaznicima",
+        "text": "Prilagođavamo tempo učenja vama. Jasna komunikacija, podrška i atmosfera u kojoj je u redu postavljati pitanja."
+      },
+      "vehicles": {
+        "title": "Moderna vozila",
+        "text": "Vozila sa dvostrukim komandama, redovno servisirana — da se osećate sigurno od prvog časa vožnje."
+      },
+      "schedule": {
+        "title": "Fleksibilni termini",
+        "text": "Jutarnji i popodnevni termini koji se uklapaju u školu, posao ili smene — dogovorimo se oko rasporeda."
+      }
+    }
+  },
+  "training": {
+    "title": "Obuka vozača B kategorije",
+    "intro": "Kompletna obuka za vozačku dozvolu B kategorije u Kostolcu: teorijska nastava, praktična obuka vožnje i priprema za polaganje vozačkog ispita.",
+    "theory": {
+      "title": "Teorijska nastava",
+      "text": "Teorijsku obuku možete započeti od 16 godina. Prolazimo saobraćajne propise, bezbednost i situacije koje vas čekaju na ispitu i u saobraćaju."
+    },
+    "practice": {
+      "title": "Praktična obuka vožnje",
+      "text": "Praktični ispit polažete od 17 godina. Časovi vožnje sa instruktorom grade navike: parkiranje, gradska vožnja, brza saobraćajnica i mirno reagovanje."
+    },
+    "exam": {
+      "title": "Polaganje ispita",
+      "text": "Pripremamo vas za teorijski i praktični deo ispita — sa jasnim očekivanjima i dodatnim časovima po potrebi."
+    },
+    "cta": "Prijavite se odmah — mesta su ograničena",
+    "ctaNote": "Broj časova i struktura obuke prate važeći pravilnik. Tačne detalje potvrđujemo prilikom upisa."
+  },
+  "refresher": {
+    "title": "Kondicioni časovi vožnje",
+    "text": "Imate dozvolu, a volan vam i dalje deluje strano? Niste jedini. Kondicioni časovi vožnje u Auto školi Sale namenjeni su vozačima koji žele da vrate osećaj kontrole — bez stida i bez pritiska.",
+    "highlight": "Nije kasno da postanete siguran vozač.",
+    "cta": "Zakažite kondicioni čas"
+  },
+  "pricing": {
+    "title": "Cenovnik",
+    "intro": "Transparentna ponuda za obuku B kategorije, kondicione časove i dodatne časove vožnje.",
+    "contactForPrice": "Kontaktirajte nas za tačnu ponudu",
+    "items": {
+      "bCategory": {
+        "title": "Obuka B kategorije",
+        "price": "Po upitu",
+        "note": "Kompletna obuka — detalje delimo pri prijavi"
+      },
+      "refresher": {
+        "title": "Kondicioni časovi",
+        "price": "Po upitu",
+        "note": "Individualni termini prema potrebi"
+      },
+      "extra": {
+        "title": "Dodatni časovi vožnje",
+        "price": "Po upitu",
+        "note": "Za dodatnu pripremu pred ispit"
+      }
+    }
+  },
+  "fleet": {
+    "title": "Naša vozila",
+    "intro": "Moderna vozila za obuku vozača, sa dvostrukim komandama i redovnim servisom — bezbednost polaznika nam je prioritet.",
+    "vehicleLabel": "Vozilo za obuku",
+    "vehicleMeta": "Model i godište — uskoro"
+  },
+  "team": {
+    "title": "Naš tim",
+    "intro": "Mlad, energičan i licenciran tim — sa vlasnikom Sašom Anđelkovićem kao nosiocem Auto škole Sale. To je naša razlika.",
+    "ownerRole": "Vlasnik / zakonski zastupnik",
+    "instructorRole": "Instruktor vožnje",
+    "theoryRole": "Predavač teorije",
+    "bioPlaceholder": "Kratka biografija i kvalifikacije — uskoro"
+  },
+  "testimonials": {
+    "title": "Iskustva naših polaznika",
+    "note": "Placeholder citati — zamenićemo ih stvarnim recenzijama (npr. sa Google Business Profile).",
+    "items": {
+      "1": {
+        "quote": "Odličan pristup i jasna objašnjenja tokom obuke vozača.",
+        "name": "M. P."
+      },
+      "2": {
+        "quote": "Fleksibilni termini su mi značili jer radim u smenama.",
+        "name": "A. J."
+      },
+      "3": {
+        "quote": "Kondicioni časovi su mi vratili sigurnost za volanom.",
+        "name": "N. S."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Galerija",
+    "caption": "Fotografija prostorija / vozila / obuke"
+  },
+  "faq": {
+    "title": "Česta pitanja",
+    "items": {
+      "age": {
+        "q": "Sa koliko godina mogu da upišem obuku za B kategoriju?",
+        "a": "Teorijsku obuku možete započeti od 16 godina, a praktični ispit polažete od 17 godina. Tačne uslove upisa potvrđujemo prilikom prijave u Auto školi Sale u Kostolcu."
+      },
+      "duration": {
+        "q": "Koliko traje obuka za vozačku dozvolu?",
+        "a": "Trajanje zavisi od vašeg tempa, dostupnih termina i broja časova po pravilniku. Većina polaznika završi obuku u roku od nekoliko meseci — precizan plan dogovaramo na početku."
+      },
+      "documents": {
+        "q": "Koja dokumenta su potrebna za upis u auto školu?",
+        "a": "Obično su potrebni lična karta (ili pasoš), lekarsko uverenje i ostala dokumenta po važećim propisima. Spisak vam pošaljemo pri prijavi."
+      },
+      "refresher": {
+        "q": "Da li nudite kondicione časove vožnje?",
+        "a": "Da. Kondicioni časovi vožnje u Kostolcu namenjeni su vozačima sa dozvolom koji žele više sigurnosti i prakse — uključujući i takozvane „papirne vozače“."
+      },
+      "hours": {
+        "q": "Koje je radno vreme auto škole Sale?",
+        "a": "Prema izlogu radnje: radnim danima 8–16h, subotom i nedeljom neradno. Za potvrdu aktuelnog rasporeda pozovite nas na +381 63 826 8876."
+      },
+      "location": {
+        "q": "Gde se nalazi auto škola Sale u Kostolcu?",
+        "a": "Na adresi Rudarska bb, Kostolac (opština Požarevac). Primamo polaznike iz Kostolca, Požarevca i okoline."
+      },
+      "price": {
+        "q": "Kolika je cena obuke u auto školi Kostolac?",
+        "a": "Cenu obuke B kategorije i kondicionih časova delimo individualno — kontaktirajte nas za tačnu, aktuelnu ponudu."
+      },
+      "exam": {
+        "q": "Kako izgleda priprema za vozački ispit B kategorije?",
+        "a": "Prolazimo teoriju i praksu sa fokusom na situacije sa ispita. Po potrebi dodajemo časove vožnje kako biste pristupili ispitu spremni."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "intro": "Pošaljite upit za obuku vozača ili kondicione časove — javljamo se što pre.",
+    "cta": "Pošaljite upit",
+    "addressLabel": "Adresa",
+    "phoneLabel": "Telefon",
+    "hoursLabel": "Radno vreme",
+    "chatLabel": "Pišite nam",
+    "viber": "Viber",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Ime i prezime",
+      "phone": "Telefon",
+      "email": "Email",
+      "service": "Usluga",
+      "serviceB": "Obuka B kategorije",
+      "serviceRefresher": "Kondicioni časovi",
+      "serviceOther": "Ostalo",
+      "message": "Poruka",
+      "submit": "Pošaljite upit",
+      "success": "Hvala! Vaš upit je zabeležen. Kontaktiraćemo vas uskoro.",
+      "error": "Došlo je do greške. Pozovite nas telefonom."
+    },
+    "mapTitle": "Lokacija Auto škole Sale na mapi"
+  },
+  "footer": {
+    "tagline": "Obuka vozača B kategorije i kondicioni časovi u Kostolcu.",
+    "quickLinks": "Brzi linkovi",
+    "legal": "Pravne informacije",
+    "privacy": "Politika privatnosti",
+    "terms": "Uslovi korišćenja",
+    "rights": "Sva prava zadržana.",
+    "contactCta": "Kontaktirajte nas"
+  },
+  "cookie": {
+    "message": "Koristimo kolačiće za analitiku (Google Analytics) kako bismo unapredili sajt. Nastavkom prihvatate našu",
+    "link": "Politiku privatnosti",
+    "accept": "Prihvatam",
+    "dismiss": "Zatvori"
+  },
+  "common": {
+    "imagePlaceholder": "Fotografija uskoro",
+    "learnMore": "Saznajte više",
+    "backHome": "Nazad na početnu"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politika privatnosti i kolačića",
+      "updated": "Poslednje ažuriranje: avgust 2026.",
+      "p1": "Auto škola Sale d.o.o. Kostolac (PIB 107504491, MB 20816520) poštuje vašu privatnost. Na ovoj stranici objašnjavamo koje podatke prikupljamo i kako ih koristimo.",
+      "p2": "Kontakt forma prikuplja ime, telefon, email i poruku isključivo radi odgovora na vaš upit. Podatke ne prodajemo trećim stranama.",
+      "p3": "Koristimo Google Analytics 4 za anonimizovanu statistiku poseta (stranice, uređaji, konverzije). Analitika može postaviti kolačiće u vašem pregledaču.",
+      "p4": "Za pitanja o privatnosti kontaktirajte nas na +381 63 826 8876 ili na adresi Rudarska bb, Kostolac."
+    },
+    "terms": {
+      "title": "Uslovi korišćenja / Impressum",
+      "p1": "Sajt vodi Auto škola Sale d.o.o. Kostolac. Zakonski zastupnik: Saša Anđelković.",
+      "p2": "Adresa: Rudarska bb, Kostolac, opština Požarevac, Srbija. Telefon: +381 63 826 8876. PIB: 107504491. Matični broj: 20816520. Šifra delatnosti: 8553 — delatnost škola za vožnju.",
+      "p3": "Informacije na sajtu su informativnog karaktera. Cene, termini i uslovi obuke potvrđuju se direktno sa auto školom. Zadržavamo pravo izmene sadržaja bez prethodne najave.",
+      "p4": "Za sva pitanja pišite ili pozovite Auto školu Sale."
+    }
+  },
+  "images": {
+    "heroAlt": "Instruktor i polaznik Auto škole Sale tokom obuke vozača u Kostolcu",
+    "aboutAlt": "Tim Auto škole Sale u prostorijama u Kostolcu",
+    "trainingAlt": "Učionica i vozilo za obuku vozača B kategorije Auto škole Sale",
+    "fleetAlt": "Vozilo za obuku vozača Auto škole Sale sa dvostrukim komandama",
+    "teamAlt": "Instruktor vožnje Auto škole Sale",
+    "galleryAlt": "Galerija Auto škole Sale Kostolac"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "homeTitle": "Sale Driving School Kostolac — B Category Driver Training",
+    "homeDescription": "Sale Driving School in Kostolac: B category driver training and refresher lessons. Modern team, flexible slots. Call +381 63 826 8876.",
+    "trainingTitle": "B Category Driver Training — Sale Driving School Kostolac",
+    "trainingDescription": "Enroll for a B category driving license at Sale Driving School Kostolac. Theory, lessons, and exam preparation in Serbia.",
+    "refresherTitle": "Refresher Driving Lessons Kostolac — Sale Driving School",
+    "refresherDescription": "Refresher driving lessons in Kostolac for licensed drivers who want more confidence. Book a lesson at Sale Driving School.",
+    "privacyTitle": "Privacy Policy — Sale Driving School",
+    "privacyDescription": "Privacy and cookie policy of Auto škola Sale d.o.o. Kostolac. How we use data and analytics.",
+    "termsTitle": "Terms of Use — Sale Driving School",
+    "termsDescription": "Terms of use for the Sale Driving School website. Legal information and impressum."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "training": "Driver training",
+    "refresher": "Refresher lessons",
+    "fleet": "Fleet",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "contactCta": "Contact us",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "brand": "Sale Driving School",
+    "title": "Sale Driving School Kostolac — B Category Driver Training",
+    "subtitle": "A modern team and flexible scheduling for driver training in Kostolac. Learn to drive with confidence — instructors who stay with you every kilometer.",
+    "ctaPrimary": "Enroll for training",
+    "ctaSecondary": "Call us"
+  },
+  "facts": {
+    "experience": "Years of experience",
+    "experienceValue": "—",
+    "vehicles": "Modern vehicles",
+    "vehiclesValue": "Dual controls",
+    "schedule": "Flexible slots",
+    "scheduleValue": "Morning & afternoon",
+    "note": "Exact figures to be confirmed with the owner"
+  },
+  "about": {
+    "title": "About Sale Driving School",
+    "p1": "Sale Driving School is led by Saša Anđelković and a young, energetic team of licensed instructors. We are based in Kostolac at Rudarska bb, serving learners from Kostolac, Požarevac, and nearby areas.",
+    "p2": "Our approach is simple: solid driver training, road safety, and trust. No stiff bureaucracy — clear explanations, patience, and a modern way of learning.",
+    "p3": "Whether you are starting B category training or returning to the wheel after a long break, we guide you from theory through to the driving test.",
+    "cta": "See how B category driver training works"
+  },
+  "why": {
+    "title": "Why Choose Sale Driving School",
+    "items": {
+      "quality": {
+        "title": "Training quality",
+        "text": "Structured theory and practical lessons aligned with regulations — real skills, not just exam tricks."
+      },
+      "dedication": {
+        "title": "Learner-first support",
+        "text": "We match the pace to you. Clear communication and a space where questions are welcome."
+      },
+      "vehicles": {
+        "title": "Modern vehicles",
+        "text": "Dual-control cars, regularly serviced — so you feel safe from the first driving lesson."
+      },
+      "schedule": {
+        "title": "Flexible schedule",
+        "text": "Morning and afternoon slots that fit school, work, or shifts — we plan the timetable with you."
+      }
+    }
+  },
+  "training": {
+    "title": "B Category Driver Training",
+    "intro": "Complete training for a B category driving license in Kostolac: theory classes, practical driving lessons, and preparation for the driving test.",
+    "theory": {
+      "title": "Theory classes",
+      "text": "You can start theory training from age 16. We cover traffic rules, safety, and the situations you will face in the exam and on the road."
+    },
+    "practice": {
+      "title": "Practical driving lessons",
+      "text": "You can take the practical exam from age 17. Lessons build habits: parking, city driving, faster roads, and calm reactions."
+    },
+    "exam": {
+      "title": "Exam preparation",
+      "text": "We prepare you for both the theory and practical parts — with clear expectations and extra lessons when needed."
+    },
+    "cta": "Enroll now — limited spots",
+    "ctaNote": "Lesson counts follow the current regulations. We confirm details at enrollment."
+  },
+  "refresher": {
+    "title": "Refresher Driving Lessons",
+    "text": "You have a license, but the wheel still feels unfamiliar? You are not alone. Refresher driving lessons at Sale Driving School are for drivers who want control back — without shame or pressure.",
+    "highlight": "It is never too late to become a confident driver.",
+    "cta": "Book a refresher lesson"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "intro": "Clear offers for B category training, refresher lessons, and extra driving hours.",
+    "contactForPrice": "Contact us for an exact quote",
+    "items": {
+      "bCategory": {
+        "title": "B category training",
+        "price": "On request",
+        "note": "Full package — details shared when you inquire"
+      },
+      "refresher": {
+        "title": "Refresher lessons",
+        "price": "On request",
+        "note": "Individual slots as needed"
+      },
+      "extra": {
+        "title": "Extra driving lessons",
+        "price": "On request",
+        "note": "For additional exam prep"
+      }
+    }
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "intro": "Modern training cars with dual controls and regular servicing — learner safety comes first.",
+    "vehicleLabel": "Training vehicle",
+    "vehicleMeta": "Model & year — coming soon"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "intro": "A young, energetic, licensed team — with owner Saša Anđelković leading Sale Driving School. That is our edge.",
+    "ownerRole": "Owner / legal representative",
+    "instructorRole": "Driving instructor",
+    "theoryRole": "Theory instructor",
+    "bioPlaceholder": "Short bio and qualifications — coming soon"
+  },
+  "testimonials": {
+    "title": "Student Testimonials",
+    "note": "Placeholder quotes — we will replace them with real reviews (ideally from Google Business Profile).",
+    "items": {
+      "1": {
+        "quote": "Clear teaching and a supportive approach throughout driver training.",
+        "name": "M. P."
+      },
+      "2": {
+        "quote": "Flexible slots mattered because I work shifts.",
+        "name": "A. J."
+      },
+      "3": {
+        "quote": "Refresher lessons brought my confidence back behind the wheel.",
+        "name": "N. S."
+      }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "caption": "Photo of premises / vehicles / training"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": {
+      "age": {
+        "q": "At what age can I enroll for B category training?",
+        "a": "You can start theory from age 16 and take the practical exam from age 17. We confirm enrollment requirements when you apply at Sale Driving School in Kostolac."
+      },
+      "duration": {
+        "q": "How long does driver training take?",
+        "a": "It depends on your pace, available slots, and the lesson count set by regulations. Many learners finish within a few months — we agree on a plan at the start."
+      },
+      "documents": {
+        "q": "What documents do I need to enroll in a driving school?",
+        "a": "Typically an ID card (or passport), a medical certificate, and other documents required by current rules. We send you the checklist when you apply."
+      },
+      "refresher": {
+        "q": "Do you offer refresher driving lessons?",
+        "a": "Yes. Refresher driving lessons in Kostolac are for licensed drivers who want more confidence and practice — including drivers who rarely get behind the wheel."
+      },
+      "hours": {
+        "q": "What are Sale Driving School opening hours?",
+        "a": "According to the shop front: weekdays 8am–4pm, closed Saturday and Sunday. Call +381 63 826 8876 to confirm the current schedule."
+      },
+      "location": {
+        "q": "Where is Sale Driving School in Kostolac?",
+        "a": "At Rudarska bb, Kostolac (Požarevac municipality). We welcome learners from Kostolac, Požarevac, and nearby areas."
+      },
+      "price": {
+        "q": "How much does driving school training cost in Kostolac?",
+        "a": "We share current prices for B category training and refresher lessons individually — contact us for an exact quote."
+      },
+      "exam": {
+        "q": "How do you prepare for the B category driving test?",
+        "a": "We cover theory and practical lessons with exam situations in mind. Extra driving hours can be added so you take the test ready."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "Send an inquiry for driver training or refresher lessons — we will get back to you soon.",
+    "cta": "Send inquiry",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "hoursLabel": "Opening hours",
+    "chatLabel": "Message us",
+    "viber": "Viber",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "service": "Service",
+      "serviceB": "B category training",
+      "serviceRefresher": "Refresher lessons",
+      "serviceOther": "Other",
+      "message": "Message",
+      "submit": "Send inquiry",
+      "success": "Thank you! Your inquiry was recorded. We will contact you soon.",
+      "error": "Something went wrong. Please call us."
+    },
+    "mapTitle": "Sale Driving School location on the map"
+  },
+  "footer": {
+    "tagline": "B category driver training and refresher lessons in Kostolac.",
+    "quickLinks": "Quick links",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "rights": "All rights reserved.",
+    "contactCta": "Contact us"
+  },
+  "cookie": {
+    "message": "We use cookies for analytics (Google Analytics) to improve the site. By continuing you accept our",
+    "link": "Privacy policy",
+    "accept": "Accept",
+    "dismiss": "Close"
+  },
+  "common": {
+    "imagePlaceholder": "Photo coming soon",
+    "learnMore": "Learn more",
+    "backHome": "Back to home"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy & cookie policy",
+      "updated": "Last updated: August 2026.",
+      "p1": "Auto škola Sale d.o.o. Kostolac (Tax ID 107504491, Company No. 20816520) respects your privacy. This page explains what data we collect and how we use it.",
+      "p2": "The contact form collects your name, phone, email, and message only to respond to your inquiry. We do not sell your data to third parties.",
+      "p3": "We use Google Analytics 4 for anonymized visit statistics (pages, devices, conversions). Analytics may set cookies in your browser.",
+      "p4": "For privacy questions, contact us at +381 63 826 8876 or Rudarska bb, Kostolac."
+    },
+    "terms": {
+      "title": "Terms of use / Impressum",
+      "p1": "This website is operated by Auto škola Sale d.o.o. Kostolac. Legal representative: Saša Anđelković.",
+      "p2": "Address: Rudarska bb, Kostolac, Požarevac municipality, Serbia. Phone: +381 63 826 8876. Tax ID (PIB): 107504491. Company number (MB): 20816520. Activity code: 8553 — driving school education.",
+      "p3": "Website information is for general guidance. Prices, schedules, and training terms are confirmed directly with the driving school. We may update content without prior notice.",
+      "p4": "For any questions, write or call Sale Driving School."
+    }
+  },
+  "images": {
+    "heroAlt": "Sale Driving School instructor and learner during a driving lesson in Kostolac",
+    "aboutAlt": "Sale Driving School team at the Kostolac premises",
+    "trainingAlt": "Classroom and training car for B category lessons at Sale Driving School",
+    "fleetAlt": "Sale Driving School training vehicle with dual controls",
+    "teamAlt": "Sale Driving School driving instructor",
+    "galleryAlt": "Sale Driving School Kostolac gallery"
+  }
+}
