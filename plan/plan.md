@@ -80,6 +80,26 @@ auto-skola-sale/
 
 ## 4. Changelog
 
+### 2026-08-06 — Logo u hero-u
+
+**Dodato**
+- Logo (`public/logo.png` iz parent `LOGO.png`) iznad „AUTO ŠKOLA SALE“ u hero-u
+
+**Fajlovi**
+- `public/logo.png`
+- `src/components/sections/Hero.tsx`
+
+### 2026-08-06 — Hero naslov u dva reda
+
+**Izmenjeno**
+- H1 podeljen na `titleLine1` / `titleLine2`; drugi red manji font + `nowrap` (bez siročeta „kategorije“)
+- `allowedDevOrigins: ['127.0.0.1']` radi HMR-a u spoljašnjem Chrome-u
+
+**Fajlovi**
+- `src/components/sections/Hero.tsx`
+- `messages/sr.json`, `messages/en.json`
+- `next.config.ts`
+
 ### 2026-08-06 — v0.1.0 Inicijalni sajt
 
 **Dodato**

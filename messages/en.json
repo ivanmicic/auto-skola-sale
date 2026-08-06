@@ -26,7 +26,8 @@
   },
   "hero": {
     "brand": "Sale Driving School",
-    "title": "Sale Driving School Kostolac — B Category Driver Training",
+    "titleLine1": "Sale Driving School Kostolac",
+    "titleLine2": "B Category Driver Training",
     "subtitle": "A modern team and flexible scheduling for driver training in Kostolac. Learn to drive with confidence — instructors who stay with you every kilometer.",
     "ctaPrimary": "Enroll for training",
     "ctaSecondary": "Call us"

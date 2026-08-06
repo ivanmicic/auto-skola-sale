@@ -26,7 +26,8 @@
   },
   "hero": {
     "brand": "Auto škola Sale",
-    "title": "Auto škola Sale Kostolac — Obuka vozača B kategorije",
+    "titleLine1": "Auto škola Sale Kostolac",
+    "titleLine2": "Obuka vozača B kategorije",
     "subtitle": "Moderan tim i fleksibilni termini za obuku vozača u Kostolcu. Naučite da vozite samouvereno — sa instruktorima koji su uz vas na svakom kilometru.",
     "ctaPrimary": "Prijavite se za obuku",
     "ctaSecondary": "Pozovite nas"

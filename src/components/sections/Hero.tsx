@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { BUSINESS } from "@/lib/business";
@@ -24,11 +25,24 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-4 pb-16 pt-28 sm:px-6 sm:pb-20 lg:justify-center lg:pb-24">
-        <p className="animate-fade-up font-display text-sm font-semibold uppercase tracking-[0.22em] text-accent sm:text-base">
+        <Image
+          src="/logo.png"
+          alt="Auto škola Sale"
+          width={2000}
+          height={2000}
+          priority
+          className="animate-fade-up h-24 w-24 object-contain sm:h-28 sm:w-28"
+        />
+        <p className="animate-fade-up mt-4 font-display text-sm font-semibold uppercase tracking-[0.22em] text-accent sm:text-base">
           {t("brand")}
         </p>
-        <h1 className="animate-fade-up-delay mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-          {t("title")}
+        <h1 className="animate-fade-up-delay mt-4 max-w-3xl font-display font-semibold leading-[1.08] tracking-tight">
+          <span className="block text-4xl sm:text-5xl lg:text-6xl">
+            {t("titleLine1")}
+          </span>
+          <span className="mt-1 block whitespace-nowrap text-[1.7rem] sm:text-4xl lg:text-5xl">
+            {t("titleLine2")}
+          </span>
         </h1>
         <p className="animate-fade-up-delay-2 mt-5 max-w-xl text-base leading-relaxed text-white/82 sm:text-lg">
           {t("subtitle")}
