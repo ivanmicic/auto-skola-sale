@@ -8,7 +8,7 @@ export function Pricing() {
 
   return (
     <section id="cenovnik" className="scroll-mt-24 bg-surface-alt py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-[90rem] px-4 sm:px-6 lg:px-8 xl:px-10">
         <SectionHeading title={t("title")} subtitle={t("intro")} centered />
         {/* TODO: unosi cene kada vlasnik potvrdi */}
         <ul className="grid gap-8 border-y border-line py-8 sm:grid-cols-3">

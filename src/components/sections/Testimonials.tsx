@@ -8,7 +8,7 @@ export function Testimonials() {
 
   return (
     <section className="bg-surface py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-[90rem] px-4 sm:px-6 lg:px-8 xl:px-10">
         <SectionHeading title={t("title")} subtitle={t("note")} centered />
         <ul className="grid gap-10 md:grid-cols-3">
           {keys.map((key) => (

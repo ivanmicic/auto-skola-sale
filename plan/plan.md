@@ -64,8 +64,9 @@ auto-skola-sale/
 
 ## 3. Owner TODO (čeka potvrdu / materijale)
 
-- [ ] Pravi logo (zameniti "L" mark u headeru)
+- [x] Pravi logo (header + hero; H1 fokusiran na uslugu)
 - [ ] Profesionalne fotografije (svi `TODO: IMAGE` placeholderi)
+- [ ] Kontakt sekcija: opciona stock/foto (kandidat: ruke + telefon) → `public/images/kontakt.*` + ubaciti u UI
 - [ ] Cene (cenovnik trenutno "Po upitu")
 - [ ] Broj godina iskustva (facts traka)
 - [ ] Imena i bio instruktora
@@ -79,6 +80,48 @@ auto-skola-sale/
 ---
 
 ## 4. Changelog
+
+### 2026-08-06 — Kraj dana: brend + širi layout
+
+**Stanje**
+- Logo u headeru i hero-u; H1 = usluga („Obuka vozača B kategorije“)
+- Header lockup: logo + Auto škola Sale + Kostolac
+- Većina sekcija na `max-w-[90rem]`; FAQ i dalje uže / centrirano
+- Kontakt slika dogovorena kao sledeći korak (fajl u `public/images/` pa UI)
+
+**Sledeće sesije**
+- Fotografije / placeholder zamene
+- Kontakt vizual (ako vlasnik potvrdi stock)
+- Owner TODO stavke (cene, tim, GA, domen…)
+
+### 2026-08-06 — Šire sekcije (facts … pricing)
+
+**Izmenjeno**
+- Facts, O nama, Zašto mi, Cenovnik, Vozila, Tim, Iskustva, Galerija na `max-w-[90rem]`
+- FAQ ostaje `max-w-3xl` (centar)
+
+**Fajlovi**
+- `src/components/sections/{Facts,About,WhyUs,Pricing,Fleet,Team,Testimonials,Gallery}.tsx`
+
+### 2026-08-06 — Header lockup: logo + naziv + Kostolac
+
+**Izmenjeno**
+- Pored malog header logoa: podebljan „Auto škola Sale“, ispod „Kostolac“ običnim slovima
+
+**Fajlovi**
+- `src/components/layout/Header.tsx`
+
+### 2026-08-06 — Brend formula: header logo + uslužni H1
+
+**Izmenjeno**
+- Header: pravi logo (uklonjen „L“ mark)
+- Hero: manji logo; H1 samo usluga („Obuka vozača B kategorije“ / EN ekvivalent)
+- Header/hero kontejner `max-w-[90rem]`; nowrap na nav / telefon / CTA
+
+**Fajlovi**
+- `src/components/layout/Header.tsx`
+- `src/components/sections/Hero.tsx`
+- `messages/sr.json`, `messages/en.json`
 
 ### 2026-08-06 — Logo u hero-u
 

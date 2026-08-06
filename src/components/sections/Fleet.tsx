@@ -8,7 +8,7 @@ export function Fleet() {
 
   return (
     <section id="vozni-park" className="scroll-mt-24 bg-surface py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-[90rem] px-4 sm:px-6 lg:px-8 xl:px-10">
         <SectionHeading title={t("title")} subtitle={t("intro")} />
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[1, 2, 3].map((n) => (

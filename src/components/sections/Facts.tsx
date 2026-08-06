@@ -14,7 +14,7 @@ export function Facts() {
       aria-label={t("note")}
       className="border-b border-line bg-surface"
     >
-      <div className="mx-auto grid max-w-6xl gap-6 px-4 py-10 sm:grid-cols-3 sm:px-6">
+      <div className="mx-auto grid max-w-[90rem] gap-6 px-4 py-10 sm:grid-cols-3 sm:px-6 lg:px-8 xl:px-10">
         {items.map((item) => (
           <div key={item.label} className="text-center sm:text-left">
             <p className="font-display text-2xl font-semibold text-navy-deep">

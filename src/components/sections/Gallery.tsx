@@ -8,7 +8,7 @@ export function Gallery() {
 
   return (
     <section id="galerija" className="scroll-mt-24 bg-surface-alt py-16 sm:py-20">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-[90rem] px-4 sm:px-6 lg:px-8 xl:px-10">
         <SectionHeading title={t("title")} />
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {Array.from({ length: 6 }).map((_, i) => (

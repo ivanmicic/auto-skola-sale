@@ -9,7 +9,7 @@ export function About() {
 
   return (
     <section id="o-nama" className="scroll-mt-24 bg-surface py-16 sm:py-20">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-[90rem] items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:px-8 xl:px-10">
         <div>
           <SectionHeading title={t("title")} />
           <div className="space-y-4 text-base leading-relaxed text-muted">

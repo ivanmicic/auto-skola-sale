@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Menu, Phone, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -25,17 +26,21 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-navy-deep/95 text-white backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8 xl:px-10">
         <Link
           href="/"
-          className="group flex items-center gap-3"
+          className="group flex shrink-0 items-center gap-2.5"
           onClick={() => setOpen(false)}
         >
-          {/* TODO: IMAGE — modern logo (replace text mark), ~160x48, alt: Auto škola Sale logo */}
-          <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent font-display text-lg font-bold tracking-tight">
-            L
-          </span>
-          <span className="font-display text-base font-semibold leading-tight sm:text-lg">
+          <Image
+            src="/logo.png"
+            alt="Auto škola Sale"
+            width={2000}
+            height={2000}
+            className="h-11 w-11 object-contain"
+            priority
+          />
+          <span className="font-display text-base font-semibold leading-tight whitespace-nowrap sm:text-lg">
             Auto škola Sale
             <span className="block text-xs font-normal tracking-wide text-white/65">
               Kostolac
@@ -43,33 +48,33 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden min-w-0 flex-1 items-center justify-center gap-0.5 lg:flex xl:gap-1" aria-label="Primary">
           {navItems.map((item) => (
             <Link
               key={item.label}
               href={item.href}
-              className="rounded-md px-2.5 py-2 text-sm text-white/85 transition hover:bg-white/10 hover:text-white"
+              className="rounded-md px-2 py-2 text-sm whitespace-nowrap text-white/85 transition hover:bg-white/10 hover:text-white xl:px-2.5"
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <TrackLink
             href={`tel:${BUSINESS.phoneTel}`}
             event="phone_click"
             eventParams={{ location: "header" }}
-            className="inline-flex items-center gap-2 text-sm font-medium text-white/90 hover:text-white"
+            className="inline-flex items-center gap-2 text-sm font-medium whitespace-nowrap text-white/90 hover:text-white"
           >
-            <Phone className="h-4 w-4" aria-hidden />
+            <Phone className="h-4 w-4 shrink-0" aria-hidden />
             {BUSINESS.phoneDisplay}
           </TrackLink>
           <LanguageSwitcher />
           <Link
             href={{ pathname: "/", hash: "kontakt" }}
             onClick={() => trackEvent("contact_click", { location: "header" })}
-            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-accent px-4 text-sm font-semibold text-white transition hover:bg-accent-hover"
+            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-accent px-4 text-sm font-semibold whitespace-nowrap text-white transition hover:bg-accent-hover"
           >
             {t("contactCta")}
           </Link>
