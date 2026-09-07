@@ -27,6 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) — redirects to `/sr`.
 | `NEXT_PUBLIC_SITE_URL` | Canonical / sitemap / OG base URL |
 | `NEXT_PUBLIC_GA_ID` | GA4 Measurement ID (`G-XXXXXXXX`) |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | Search Console meta tag |
+| `NEXT_PUBLIC_ALLOW_INDEXING` | Set to `true` only at public launch (default: noindex) |
 
 ## Owner TODOs
 

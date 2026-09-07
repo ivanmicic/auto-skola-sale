@@ -206,6 +206,8 @@
       "serviceOther": "Ostalo",
       "message": "Poruka",
       "submit": "Pošaljite upit",
+      "previewNotice": "Ovo je radna verzija sajta. Forma još ne šalje upite — pozovite nas ili pišite na Viber/WhatsApp.",
+      "previewSubmit": "Upit nije poslat. Forma još nije povezana. Pozovite nas ili pišite na Viber/WhatsApp.",
       "success": "Hvala! Vaš upit je zabeležen. Kontaktiraćemo vas uskoro.",
       "error": "Došlo je do greške. Pozovite nas telefonom."
     },
@@ -221,7 +223,7 @@
     "contactCta": "Kontaktirajte nas"
   },
   "cookie": {
-    "message": "Koristimo kolačiće za analitiku (Google Analytics) kako bismo unapredili sajt. Nastavkom prihvatate našu",
+    "message": "Koristimo kolačiće za analitiku (Google Analytics) kako bismo unapredili sajt. Detalje možete pročitati u",
     "link": "Politiku privatnosti",
     "accept": "Prihvatam",
     "dismiss": "Zatvori"

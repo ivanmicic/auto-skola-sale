@@ -8,7 +8,7 @@ export function Refresher() {
   return (
     <section
       id="kondicioni"
-      className="scroll-mt-24 bg-navy text-white py-16 sm:py-20"
+      className="royal-shine scroll-mt-24 py-16 text-white sm:py-20"
     >
       <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
         <SectionHeading title={t("title")} light centered />

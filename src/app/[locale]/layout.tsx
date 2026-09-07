@@ -5,7 +5,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { Figtree, Sora } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { routing } from "@/i18n/routing";
-import { SITE } from "@/lib/business";
+import { isAnalyticsEnabled, SITE } from "@/lib/business";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieNotice } from "@/components/layout/CookieNotice";
@@ -34,9 +34,12 @@ export function generateStaticParams() {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  verification: {
-    google: SITE.googleSiteVerification,
-  },
+  robots: SITE.allowIndexing
+    ? { index: true, follow: true }
+    : { index: false, follow: false },
+  ...(SITE.googleSiteVerification
+    ? { verification: { google: SITE.googleSiteVerification } }
+    : {}),
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
@@ -48,7 +51,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
   const gaId = SITE.gaId;
-  const enableGa = gaId && gaId !== "G-XXXXXXX";
+  const enableGa = isAnalyticsEnabled(gaId);
 
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
@@ -57,9 +60,9 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
-          <CookieNotice />
+          {enableGa ? <CookieNotice /> : null}
         </NextIntlClientProvider>
-        {enableGa ? <GoogleAnalytics gaId={gaId} /> : null}
+        {enableGa && gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   );

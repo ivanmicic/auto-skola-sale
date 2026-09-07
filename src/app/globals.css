@@ -92,6 +92,41 @@ h3,
   animation: hero-pan 8s ease-out both;
 }
 
+.hero-royal-bg {
+  background-color: #071445;
+}
+
+.royal-shine {
+  background-color: #071445;
+  background-image:
+    repeating-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.045) 0,
+      rgba(255, 255, 255, 0) 1px,
+      rgba(255, 255, 255, 0) 3px
+    ),
+    linear-gradient(
+      105deg,
+      transparent 42%,
+      rgba(170, 205, 255, 0.22) 58%,
+      transparent 72%
+    ),
+    linear-gradient(
+      to top,
+      #06103a 0%,
+      rgba(7, 20, 72, 0.12) 44%,
+      rgba(10, 28, 96, 0.3) 100%
+    ),
+    linear-gradient(
+      to right,
+      #071238 0%,
+      #0a1f72 28%,
+      #1844c8 54%,
+      #3d6fff 76%,
+      #5b86ff 100%
+    );
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

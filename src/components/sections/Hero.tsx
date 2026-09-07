@@ -10,7 +10,7 @@ export function Hero() {
   const tImg = useTranslations("images");
 
   return (
-    <section className="relative isolate min-h-[100svh] overflow-hidden bg-navy-deep text-white">
+    <section className="hero-royal-bg relative isolate min-h-[100svh] overflow-hidden text-white">
       <div className="absolute inset-0">
         <div className="hero-media-motion h-full w-full">
           <ImagePlaceholder
@@ -20,8 +20,7 @@ export function Hero() {
             className="h-full"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/88 to-navy/55" />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-deep via-transparent to-navy-deep/35" />
+        <div className="royal-shine absolute inset-0" />
       </div>
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-[90rem] flex-col justify-end px-4 pb-16 pt-24 sm:px-6 sm:pb-20 lg:justify-center lg:px-10 lg:pb-24 lg:pt-28">

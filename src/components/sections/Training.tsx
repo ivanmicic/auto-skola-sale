@@ -39,7 +39,7 @@ export function Training({ showPageCta = true }: Props) {
         </div>
 
         {showPageCta ? (
-          <div className="mt-12 bg-navy px-6 py-8 text-center text-white sm:px-10">
+          <div className="royal-shine mt-12 px-6 py-8 text-center text-white sm:px-10">
             <p className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
               {t("cta")}
             </p>

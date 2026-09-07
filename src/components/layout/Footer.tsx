@@ -14,7 +14,7 @@ export function Footer() {
       : BUSINESS.openingHoursDisplay.en;
 
   return (
-    <footer className="bg-navy-deep text-white">
+    <footer className="royal-shine text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.3fr_1fr_1fr]">
         <div>
           <p className="font-display text-2xl font-semibold tracking-tight">

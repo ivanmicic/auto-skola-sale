@@ -25,7 +25,7 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-navy-deep/95 text-white backdrop-blur-md">
+    <header className="royal-shine sticky top-0 z-50 border-b border-white/10 text-white">
       <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8 xl:px-10">
         <Link
           href="/"
@@ -95,7 +95,7 @@ export function Header() {
       {open ? (
         <div
           id="mobile-nav"
-          className="border-t border-white/10 bg-navy-deep px-4 py-4 lg:hidden"
+          className="royal-shine border-t border-white/10 px-4 py-4 lg:hidden"
         >
           <nav className="flex flex-col gap-1" aria-label="Mobile">
             {navItems.map((item) => (

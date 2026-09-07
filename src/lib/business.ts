@@ -44,9 +44,14 @@ export const BUSINESS = {
 export const SITE = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://auto-skola-sale.rs",
   gaId: process.env.NEXT_PUBLIC_GA_ID,
-  googleSiteVerification:
-    process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "ZAMENITI_KODOM",
+  googleSiteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  /** Preview stays out of search until launch. Set to "true" when going live. */
+  allowIndexing: process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true",
 } as const;
+
+export function isAnalyticsEnabled(gaId = SITE.gaId) {
+  return Boolean(gaId && gaId !== "G-XXXXXXX");
+}
 
 export function fullAddress() {
   const { street, city, municipality, country } = BUSINESS.address;

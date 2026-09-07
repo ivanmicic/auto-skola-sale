@@ -206,6 +206,8 @@
       "serviceOther": "Other",
       "message": "Message",
       "submit": "Send inquiry",
+      "previewNotice": "This is a working preview. The form does not send inquiries yet — please call us or message us on Viber/WhatsApp.",
+      "previewSubmit": "Your inquiry was not sent. The form is not connected yet. Please call us or message us on Viber/WhatsApp.",
       "success": "Thank you! Your inquiry was recorded. We will contact you soon.",
       "error": "Something went wrong. Please call us."
     },
@@ -221,7 +223,7 @@
     "contactCta": "Contact us"
   },
   "cookie": {
-    "message": "We use cookies for analytics (Google Analytics) to improve the site. By continuing you accept our",
+    "message": "We use cookies for analytics (Google Analytics) to improve the site. You can read more in our",
     "link": "Privacy policy",
     "accept": "Accept",
     "dismiss": "Close"

@@ -14,7 +14,7 @@ Kod živi u root-u repozitorijuma (`auto-skola-sale`); ovaj folder služi kao is
 | Stek | Next.js 16 (App Router), TypeScript, Tailwind, next-intl, Vercel |
 | Jezici | `sr` (primarni, latinica), `en` (sekundarni) |
 | Lokalni URL | http://localhost:3000 → `/sr` |
-| Brend | Navy `#1B3A6B` + accent `#D35400`, fontovi Sora + Figtree |
+| Brend | Navy `#1B3A6B` + accent `#D35400`, fontovi Sora + Figtree; velika plava polja: rojal plava sa sjajem (`.royal-shine`) |
 
 ### NAP (konzistentno svuda)
 
@@ -80,6 +80,31 @@ auto-skola-sale/
 ---
 
 ## 4. Changelog
+
+### 2026-09-07 — Rojal plava sa sjajem na velikim plavim poljima
+
+**Izmenjeno**
+- Ista nijansa i prelaz (`.royal-shine`) na hero, header, footer, sekciju kondicionih časova i CTA blok „Prijavite se odmah“
+- Sitna dugmad, ikone i svetle pozadine ostaju navy / accent
+
+**Fajlovi**
+- `src/app/globals.css`
+- `src/components/sections/{Hero,Training,Refresher}.tsx`
+- `src/components/layout/{Header,Footer}.tsx`
+
+### 2026-09-07 — Preview hygiene pred klijentski Vercel
+
+**Izmenjeno**
+- Kontakt forma više ne tvrdi da je upit poslat; vidi se jasna napomena da je ovo radna verzija
+- `noindex` + `robots.txt` disallow dok `NEXT_PUBLIC_ALLOW_INDEXING` nije `true`
+- Favicon iz logoa (`src/app/icon.png`)
+- Cookie banner samo kada je GA stvarno uključen; uklonjen lažni Search Console fallback
+
+**Fajlovi**
+- `src/components/sections/ContactForm.tsx`
+- `src/lib/business.ts`, `src/app/robots.ts`, `src/app/[locale]/layout.tsx`
+- `src/app/icon.png`
+- `messages/sr.json`, `messages/en.json`
 
 ### 2026-08-06 — Kraj dana: brend + širi layout
 

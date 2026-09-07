@@ -2,38 +2,21 @@
 
 import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
-import { trackEvent } from "@/lib/analytics";
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [status, setStatus] = useState<"idle" | "preview">("idle");
 
   function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const form = e.currentTarget;
-    const data = new FormData(form);
-
-    // Placeholder submit — wire to email/API later
-    const payload = {
-      name: String(data.get("name") || ""),
-      phone: String(data.get("phone") || ""),
-      email: String(data.get("email") || ""),
-      service: String(data.get("service") || ""),
-      message: String(data.get("message") || ""),
-    };
-
-    try {
-      console.info("Contact inquiry:", payload);
-      trackEvent("form_submit", { service: payload.service });
-      setStatus("success");
-      form.reset();
-    } catch {
-      setStatus("error");
-    }
+    setStatus("preview");
   }
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
+      <p className="rounded-lg bg-navy-soft px-3 py-2.5 text-sm leading-relaxed text-navy">
+        {t("previewNotice")}
+      </p>
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm font-medium text-ink">
           {t("name")}
@@ -93,14 +76,9 @@ export function ContactForm() {
       >
         {t("submit")}
       </button>
-      {status === "success" ? (
+      {status === "preview" ? (
         <p className="text-sm font-medium text-navy" role="status">
-          {t("success")}
-        </p>
-      ) : null}
-      {status === "error" ? (
-        <p className="text-sm font-medium text-red-700" role="alert">
-          {t("error")}
+          {t("previewSubmit")}
         </p>
       ) : null}
     </form>

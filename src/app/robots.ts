@@ -3,6 +3,16 @@ import { SITE } from "@/lib/business";
 
 export default function robots(): MetadataRoute.Robots {
   const base = SITE.url.replace(/\/$/, "");
+
+  if (!SITE.allowIndexing) {
+    return {
+      rules: {
+        userAgent: "*",
+        disallow: "/",
+      },
+    };
+  }
+
   return {
     rules: {
       userAgent: "*",
